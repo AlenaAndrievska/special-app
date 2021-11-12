@@ -13,8 +13,6 @@ for number in range(2, number + 1):
   member = int(input('Введите ' + str(number) + ' -е число: '))
   if operation == '+':
     total = member_1 + member
-  if operation == '-':
-    total = member_1 - member
   if operation == '*':
     total = member_1 * member
   if operation == '/':

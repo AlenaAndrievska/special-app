@@ -8,6 +8,6 @@ def gcd(a, b):
             b = b % a
     print('Наибольший общий делитель:', a + b)
 
-number_a = int(input('Введите первое число: '))
-number_b = int(input('Введите второе число: '))
+number_a = int(input('Введите a: '))
+number_b = int(input('Введите b: '))
 gcd(number_a, number_b)

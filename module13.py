@@ -12,6 +12,8 @@ while True:
       number_c = number_a / number_b
     elif operation == '%':
       number_c = number_a % number_b
+    elif operation == '^':
+      number_c = number_a ^ number_b
     else:
       print('Ошибка: такой операции не существует. Попробуйте ещё раз.')
       break

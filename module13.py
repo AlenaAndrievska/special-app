@@ -10,8 +10,6 @@ while True:
       number_c = number_a * number_b
     elif operation == '/':
       number_c = number_a / number_b
-    elif operation == '%':
-      number_c = number_a % number_b
     elif operation == '^':
       number_c = number_a ^ number_b
       number_c *= 3.14
